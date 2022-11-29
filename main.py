@@ -15,7 +15,7 @@ from urllib.request import urlopen
 
  # Structure and Layout
 window = Tk()
-window.title("Summaryzer GUI")
+window.title("Summarizer GUI")
 window.geometry("800x500")
 window.config(background='black')
 
@@ -35,7 +35,7 @@ tab_control.add(tab2, text=f'{"File":^20s}')
 tab_control.add(tab3, text=f'{"URL":^20s}')
 
 
-label1 = Label(tab1, text= 'Summaryzer',padx=5, pady=5)
+label1 = Label(tab1, text= 'Summarizer',padx=5, pady=5)
 label1.grid(column=0, row=0)
  
 label2 = Label(tab2, text= 'File Processing',padx=5, pady=5)
